@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El ahorcado</title>
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>El ahorcado</h1>
+        <h4>Demuestra tu habilidad para adivinar palabras en el clásico juego de Ahorcado</h4>
+        <button id="inicio">Iniciar</button>
+    </header>
+    <main>
+        <p id="guia"></p> <!-- Aquí mostraremos una pequeña ayuda de la palabra-->
+        <h5 id="intentos"></h5><!--Intentos restantes-->
+        <p id="mensaje"></p><!--Mensaje del juego-->
+         
+        <input type="text" placeholder="Ingrese una letra" id="letra_tipeada" style="visibility: hidden;" maxlength="1">
+        <div>
+            <h3>Palabra Oculta</h3>
+            <p id="palabra_oculta"></p>
+            <h1>Letras escritas</h1>
+            <p id="letras_escritas"></p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

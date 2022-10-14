@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+}
+header{
+    height: 200px;
+    color: white;
+    background-color: rgb(39, 18, 18);
+}
+h1,h2,h3{
+    text-align: center;
+}
+h4,h5,h6{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    font-size: 18px;
+    size: 36px;
+    height: 40px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 30px;
+    margin-top: 30px;
+}
