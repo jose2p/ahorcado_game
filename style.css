@@ -2,9 +2,21 @@ body{
     width: 100%;
 }
 header{
-    height: 200px;
+    height: 100%;
     color: white;
     background-color: rgb(39, 18, 18);
+    text-align: center;
+}
+main{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    align-content: center;
+    background-color: chocolate;
 }
 h1,h2,h3{
     text-align: center;
@@ -18,9 +30,8 @@ p{
 button{
     font-size: 18px;
     size: 36px;
-    height: 40px;
-    width: 100px;
+    height: 80px;
+    width: 180px;
     background-color: goldenrod;
     border-radius: 30px;
-    margin-top: 30px;
 }
